@@ -232,7 +232,7 @@ class _DatePickerWidgetState extends State<DatePickerWidget> {
       child: Text(
         DateTimeFormatter.formatDateTime(value, format, widget.locale),
         style:
-            widget.pickerTheme!.itemTextStyle ?? DATETIME_PICKER_ITEM_TEXT_STYLE,
+            widget.pickerTheme!.itemTextStyle,
       ),
     );
   }
